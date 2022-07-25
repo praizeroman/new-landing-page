@@ -1,9 +1,64 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    background-color: hsl(257, 40%, 49%);
-    max-width:  1440px;
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url("/images/bg-desktop.svg");
+  width: 100%;
+}
+
+.head {
+  width: 500px;
+  height: 50px;
+  margin-left: 5px;
+  margin-top: 30px;
+}
+
+.parent-container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+#mock-up {
+  width: 90%;
+}
+
+.text-content {
+  width: 35%;
+  color: white;
+  margin-top: 4%;
+}
+
+#big-text {
+  margin-bottom: 10%;
+  font-weight: 600;
+  font-size: xx-large;
+  font-family: "Poppins", sans-serif;
+}
+
+#small-text{
+    font-family: "opensans",sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    opacity: 0.8;
+}
+
+button{
+    width: 35%;
+    height: 11%;
+    border-radius: 20px;
+    border-style: none;
+    background: white;
+    color: hsl(257, 40%, 49%);
+    margin-top: 3%;
+}
+
+button:hover{
+    background: hsl(300, 69%, 71%);
+    cursor: pointer;
+    color: white;
 }
